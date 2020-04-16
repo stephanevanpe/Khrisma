@@ -31,6 +31,9 @@ const NavBar = () => {
 			<NavItem href='/'>
 				<span className='purple-text text-darken-4'>Accueil</span>
 			</NavItem>
+			<NavItem href='/History'>
+				<span className='purple-text text-darken-4'>Mon histoire</span>
+			</NavItem>
 			<NavItem href='/Prices'>
 				<span className='purple-text text-darken-4'>Tarifs</span>
 			</NavItem>
