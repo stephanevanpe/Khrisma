@@ -13,7 +13,7 @@ const NavBar = () => {
 			id='mobile-nav'
 			menuIcon={
 				<Icon>
-					<span class='purple-text text-darken-4'>menu</span>
+					<span className='purple-text text-darken-4'>menu</span>
 				</Icon>
 			}
 			options={{
@@ -29,13 +29,13 @@ const NavBar = () => {
 			}}
 		>
 			<NavItem href='/'>
-				<span class='purple-text text-darken-4'>Accueil</span>
+				<span className='purple-text text-darken-4'>Accueil</span>
 			</NavItem>
 			<NavItem href='/Prices'>
-				<span class='purple-text text-darken-4'>Tarifs</span>
+				<span className='purple-text text-darken-4'>Tarifs</span>
 			</NavItem>
 			<NavItem href='/Contact'>
-				<span class='purple-text text-darken-4'>Contact</span>
+				<span className='purple-text text-darken-4'>Contact</span>
 			</NavItem>
 		</Navbar>
 	);
