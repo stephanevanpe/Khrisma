@@ -17,9 +17,26 @@ const Contact = () => {
 							closeIcon={<Icon>close</Icon>}
 							revealIcon={<Icon>more_vert</Icon>}
 							textClassName='purple-text text-darken-4'
-							title='Card title'
+							title='Complétez le formulaire de contact'
 						>
 							I am a very simple card.
+							<div class='row'>
+								<div class='col s12'>
+									<Button
+										node='button'
+										tooltip='06 46 12 65 28'
+										tooltipOptions={{
+											position: 'right',
+										}}
+										waves='light'
+										className='purple darken-4'
+									>
+										<Icon left>
+											<span className='purple-text text-lighten-5'>call</span>
+										</Icon>
+									</Button>
+								</div>
+							</div>
 							<form id='ContactForm' method='POST'>
 								<div class='row'>
 									<div class='input-field col s6'>
@@ -33,7 +50,7 @@ const Contact = () => {
 								</div>
 
 								<div class='row'>
-									<div class='input-field col s4'>
+									<div class='input-field col s4' >
 										<input type='date' name='birthday' />
 										<label>Date de naissance</label>
 									</div>
@@ -58,7 +75,7 @@ const Contact = () => {
 								</div>
 								<div class='row'>
 									<Row>
-										<Textarea id='Textarea-12' l={12} m={12} s={12} xl={12} placeholder='Tapez votre message ici' />
+										<Textarea id='Textarea-12' l={12} m={12} s={12} xl={12} placeholder='Tapez votre message ici' icon={<Icon>mode_edit</Icon>} />
 									</Row>
 								</div>
 
