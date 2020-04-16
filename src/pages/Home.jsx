@@ -20,11 +20,11 @@ const Home = () => {
 				<div className='section purple lighten-5'>
 					<div className='row container'>
 						<hr />
-						<h1 className='yellow-text text-darken-3'>Khrisma Médium</h1>
-						<h2 className='header'>Tarnos</h2>
-						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, cursive', fontSize: '40px', textIndent: '2' }}>
-							<b>M</b>edium depuis toujours, je me suis rendue compte que mes aptitudes me servaient pour aider à la gestion du deuil et des blocages divers,
-							tout en tenant compte de la généalogie. Les cartes, les mots, l'écriture viennent à mon aide .
+						<h1 className='yellow-text text-darken-3'>Khrisma</h1>
+						<h4 className='header'> Medium de naissance - magnétisme holistique - coupeur de feu et de rayons - Maître Reiki</h4>
+						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, cursive', fontSize: '40px'}}>
+							" <b>J</b>e me suis rendue compte que mes aptitudes me servaient pour aider à la gestion du deuil et des blocages divers,
+							tout en tenant compte de la généalogie. Les cartes, les mots, l'écriture viennent à mon aide . "
 						</p>
 						<hr />
 					</div>
