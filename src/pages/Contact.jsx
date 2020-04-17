@@ -53,44 +53,45 @@ class Contact extends Component {
 										</Button>
 									</div>
 								</div>
-								<form name='contact' method='POST' data-netlify='true'>
-									<div>
-										<div className='row'>
-											<div className='input-field col s6'>
+								<form form-name='contact' method='POST' data-netlify='true' data-netlify-honeypot='bot-field'>
+									<p>
+										<p className='row'>
+											<p className='input-field col s6'>
 												<input type='text' name='firstName' />
 												<label>Nom</label>
-											</div>
-											<div className='input-field col s6'>
+											</p>
+											<p className='input-field col s6'>
 												<input type='text' name='lastName' />
 												<label>Prénom</label>
-											</div>
-										</div>
-										<div className='row'>
-											<div className='input-field col s4'>
+											</p>
+										</p>
+										<br />
+										<p className='row'>
+											<p className='input-field col s4'>
 												<input type='date' name='birthday' />
 												<label>Date de naissance</label>
-											</div>
-											<div className='input-field col s4'>
+											</p>
+											<p className='input-field col s4'>
 												<input type='number' name='zipcode' />
 												<label>Code postale</label>
-											</div>
-											<div className='input-field col s4'>
+											</p>
+											<p className='input-field col s4'>
 												<input type='text' name='city' />
 												<label>Ville</label>
-											</div>
-										</div>
-										<div className='row'>
-											<div className='input-field col s6'>
+											</p>
+										</p>
+										<p className='row'>
+											<p className='input-field col s6'>
 												<input type='number' name='foneNumber' />
 												<label>Telephone</label>
-											</div>
-											<div className='input-field col s6'>
+											</p>
+											<p className='input-field col s6'>
 												<input type='email' name='mail' />
 												<label>Mail</label>
-											</div>
-										</div>
+											</p>
+										</p>
 
-										<div className='row'>
+										<p className='row'>
 											<Row>
 												<Textarea
 													name='message'
@@ -103,20 +104,19 @@ class Contact extends Component {
 													icon={<Icon>mode_edit</Icon>}
 												/>
 											</Row>
-										</div>
-										<div className='row'>
-											<div className='col s12'>
+										</p>
+										<p className='row'>
+											<p className='col s12'>
 												<button node='button' type='submit' waves='light' className='purple darken-4'>
 													<span className='purple-text text-lighten-5'>Envoyer</span>
 													<Icon left>
 														<span className='purple-text text-lighten-5'>send</span>
 													</Icon>
 												</button>
-											</div>
-										</div>
-									</div>
+											</p>
+										</p>
+									</p>
 								</form>
-								
 							</Card>
 						</Col>
 					</Col>
