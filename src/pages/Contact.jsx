@@ -34,7 +34,7 @@ class Contact extends Component {
 								textClassName='purple-text text-darken-4'
 								title='Laissez moi un message ou appellez-moi'
 							>
-								I am a very simple card.
+								
 								<div className='row'>
 									<div className='col s12'>
 										<Button
@@ -56,8 +56,8 @@ class Contact extends Component {
 								<form className='khrismacontac' name='khrismacontact' data-netlify='true' method='POST' action='/' data-netlify-honeypot='bot-field'>
 									<input type='hidden' name='form-name' value='khrismacontact' />
 									<input type='hidden' name='bot-field' />
-									<p>
-										<p className='row'>
+									<div>
+										<div className='row'>
 											<p className='input-field col s6'>
 												<input type='text' name='firstName' />
 												<label>Nom</label>
@@ -66,9 +66,9 @@ class Contact extends Component {
 												<input type='text' name='lastName' />
 												<label>Prénom</label>
 											</p>
-										</p>
+										</div>
 										<br />
-										<p className='row'>
+										<div className='row'>
 											<p className='input-field col s4'>
 												<input type='date' name='birthday' />
 												<label>Date de naissance</label>
@@ -81,8 +81,8 @@ class Contact extends Component {
 												<input type='text' name='city' />
 												<label>Ville</label>
 											</p>
-										</p>
-										<p className='row'>
+										</div>
+										<div className='row'>
 											<p className='input-field col s6'>
 												<input type='number' name='foneNumber' />
 												<label>Telephone</label>
@@ -91,9 +91,9 @@ class Contact extends Component {
 												<input type='email' name='mail' />
 												<label>Mail</label>
 											</p>
-										</p>
+										</div>
 
-										<p className='row'>
+										<div className='row'>
 											<Row>
 												<Textarea
 													name='message'
@@ -106,18 +106,18 @@ class Contact extends Component {
 													icon={<Icon>mode_edit</Icon>}
 												/>
 											</Row>
-										</p>
-										<p className='row'>
+										</div>
+										<div className='row'>
 											<p className='col s12'>
-												<button node='button' type='submit' waves='light' className='purple darken-4'>
+												<Button node='button' type='submit' waves='light' className='purple darken-4'>
 													<span className='purple-text text-lighten-5'>Envoyer</span>
 													<Icon left>
 														<span className='purple-text text-lighten-5'>send</span>
 													</Icon>
-												</button>
+												</Button>
 											</p>
-										</p>
-									</p>
+										</div>
+									</div>
 								</form>
 							</Card>
 						</Col>
