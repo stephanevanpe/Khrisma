@@ -1,5 +1,5 @@
 import React from 'react';
-import { Parallax } from 'react-materialize';
+import { Parallax, Row, Col } from 'react-materialize';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Lotus from '../pictures/62a47d8e4ab364cf476f25a473b23c75.jpg';
@@ -43,10 +43,31 @@ const Home = () => {
 					<div className='row container'>
 						<hr />
 						<h4 className='header purple-text text-darken-4'>Déroulement de la consultation</h4>
-						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, cursive', fontSize: '40px', textIndent: '2' }}>
+						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, cursive', fontSize: '40px' }}>
 							<b>M</b>edium depuis toujours, je me suis rendue compte que mes aptitudes me servaient pour aider à la gestion du deuil et des blocages divers,
 							tout en tenant compte de la généalogie. Les cartes, les mots, l'écriture viennent à mon aide .
 						</p>
+						<br />
+						<Row>
+							<Col s={1}>
+							</Col>
+							<Col  s={1}>
+							</Col>
+							<Col  s={1}>
+							</Col>
+							<Col  s={1}>
+							</Col>
+							<Col  s={1}>
+							</Col>
+							<Col  s={1}>
+							</Col>
+							<Col  s={1}>
+							</Col>
+							<Col className='yellow-text text-darken-3' s={5}>
+								" Accepte ce qui est, laisse aller ce qui était, et aie confiance en ce qui serra "<br/>
+								Citation de BOUDHA
+							</Col>
+						</Row>
 						<hr />
 					</div>
 				</div>
