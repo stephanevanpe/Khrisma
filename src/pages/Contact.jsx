@@ -53,7 +53,7 @@ class Contact extends Component {
 										</Button>
 									</div>
 								</div>
-								<form name='contact' method='POST' data-netlify-recaptcha='true' data-netlify='true'>
+								<form name='contact' netlify>
 									<input type='hidden' name='form-name' value='contact' />
 									<p>
 										<p className='row'>
@@ -106,7 +106,6 @@ class Contact extends Component {
 												/>
 											</Row>
 										</p>
-										<div data-netlify-recaptcha='true'></div>
 										<p className='row'>
 											<p className='col s12'>
 												<button node='button' type='submit' waves='light' className='purple darken-4'>
