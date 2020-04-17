@@ -53,7 +53,7 @@ class Contact extends Component {
 										</Button>
 									</div>
 								</div>
-								<form name='khrismacontact' netlify method='post' action="/">
+								<form name='khrismacontact' data-netlify='true' method='POST' action='/'>
 									<input type='hidden' name='form-name' value='contact' />
 									<p>
 										<p className='row'>
