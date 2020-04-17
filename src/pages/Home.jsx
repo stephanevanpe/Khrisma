@@ -22,9 +22,11 @@ const Home = () => {
 				<div className='section purple lighten-5'>
 					<div className='row container'>
 						<hr />
-						<h1 className='yellow-text text-darken-3'>
-							<img alt='' src={Deco1} /> Khrisma <img alt='' src={Deco2} />
-						</h1>
+						<Col s={12}>
+							<h1 className='yellow-text text-darken-3'>
+								<img alt='' src={Deco1} /> Khrisma <img alt='' src={Deco2} />
+							</h1>
+						</Col>
 						<h4 className='header purple-text text-darken-4'> Medium de naissance - magnétisme holistique - coupeur de feu et de rayons - Maître Reiki</h4>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, cursive', fontSize: '40px' }}>
 							" <b>J</b>e me suis rendue compte que mes aptitudes me servaient pour aider à la gestion du deuil et des blocages divers, tout en tenant compte
@@ -49,22 +51,15 @@ const Home = () => {
 						</p>
 						<br />
 						<Row>
-							<Col s={1}>
-							</Col>
-							<Col  s={1}>
-							</Col>
-							<Col  s={1}>
-							</Col>
-							<Col  s={1}>
-							</Col>
-							<Col  s={1}>
-							</Col>
-							<Col  s={1}>
-							</Col>
-							<Col  s={1}>
-							</Col>
+							<Col s={1}></Col>
+							<Col s={1}></Col>
+							<Col s={1}></Col>
+							<Col s={1}></Col>
+							<Col s={1}></Col>
+							<Col s={1}></Col>
+							<Col s={1}></Col>
 							<Col className='yellow-text text-darken-3' s={5}>
-								" Accepte ce qui est, laisse aller ce qui était, et aie confiance en ce qui sera "<br/>
+								" Accepte ce qui est, laisse aller ce qui était, et aie confiance en ce qui sera "<br />
 								Citation de BOUDDHA
 							</Col>
 						</Row>

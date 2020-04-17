@@ -6,7 +6,7 @@ const Fouter = () => {
 	return (
 		<Footer
 			className='purple lighten-5 '
-			copyrights='©2020 Copyright tous droits reservés.'
+			copyrights='©2020 Copyright tous droits réservés'
 			moreLinks={
 				<>
 					<a href='https://www.facebook.com/Khrisma-medium-316028152260673/'>
@@ -24,7 +24,7 @@ const Fouter = () => {
 					</p>
 					<a className='purple-text text-darken-4' href='https://www.linkedin.com/in/stephane-van-pe/'>
 						{' '}
-						Réalisé par Stéphane Van Pé.
+						Réalisé par Stéphane Van Pé
 					</a>
 				</>
 			}
