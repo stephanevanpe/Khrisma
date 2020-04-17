@@ -52,7 +52,7 @@ class Contact extends Component {
 										</Button>
 									</div>
 								</div>
-								<form name="contact" data-netlify='true'>
+								<form name='contact' method='post' data-netlify='true' data-netlify-honeypot='bot-field'>
 									<div className='row'>
 										<div className='input-field col s6'>
 											<input type='text' name='firstName' />
