@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Row,Textarea, Col, Card, Icon, Button} from 'react-materialize';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 import swal from 'sweetalert';
-import NetlifyForm from 'react-netlify-form';
+
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Cabinet from '../pictures/Cabinet.jpg'
@@ -53,70 +53,70 @@ class Contact extends Component {
 										</Button>
 									</div>
 								</div>
-								<NetlifyForm name='Contact Form'>
-									{({ loading, error, success }) => (
-										<div>
-											{loading && <div>Loading...</div>}
-											{error && <div>Your information was not sent. Please try again later.</div>}
-											{success && <div>Thank you for contacting us!</div>}
-											{!loading && !success && (
-												<div>
-													<div className='row'>
-														<div className='input-field col s6'>
-															<input type='text' name='firstName' />
-															<label>Nom</label>
-														</div>
-														<div className='input-field col s6'>
-															<input type='text' name='lastName' />
-															<label>Prénom</label>
-														</div>
-													</div>
-
-													<div className='row'>
-														<div className='input-field col s4'>
-															<input type='date' name='birthday' />
-															<label>Date de naissance</label>
-														</div>
-														<div className='input-field col s4'>
-															<input type='number' name='zipcode' />
-															<label>Code postale</label>
-														</div>
-														<div className='input-field col s4'>
-															<input type='text' name='city' />
-															<label>Ville</label>
-														</div>
-													</div>
-													<div className='row'>
-														<div className='input-field col s6'>
-															<input type='number' name='foneNumber' />
-															<label>Telephone</label>
-														</div>
-														<div className='input-field col s6'>
-															<input type='email' name='mail' />
-															<label>Mail</label>
-														</div>
-													</div>
-													<div className='row'>
-														<Row>
-															<Textarea id='Textarea-12' l={12} m={12} s={12} xl={12} placeholder='Tapez votre message ici' icon={<Icon>mode_edit</Icon>} />
-														</Row>
-													</div>
-
-													<div className='row'>
-														<div className='col s12'>
-															<Button node='button' type='submit' waves='light' className='purple darken-4'>
-																<span className='purple-text text-lighten-5'>Envoyer</span>
-																<Icon left>
-																	<span className='purple-text text-lighten-5'>send</span>
-																</Icon>
-															</Button>
-														</div>
-													</div>
-												</div>
-											)}
+								<form name='contact' method='POST' data-netlify='true'>
+									<div>
+										<div className='row'>
+											<div className='input-field col s6'>
+												<input type='text' name='firstName' />
+												<label>Nom</label>
+											</div>
+											<div className='input-field col s6'>
+												<input type='text' name='lastName' />
+												<label>Prénom</label>
+											</div>
 										</div>
-									)}
-								</NetlifyForm>
+										<div className='row'>
+											<div className='input-field col s4'>
+												<input type='date' name='birthday' />
+												<label>Date de naissance</label>
+											</div>
+											<div className='input-field col s4'>
+												<input type='number' name='zipcode' />
+												<label>Code postale</label>
+											</div>
+											<div className='input-field col s4'>
+												<input type='text' name='city' />
+												<label>Ville</label>
+											</div>
+										</div>
+										<div className='row'>
+											<div className='input-field col s6'>
+												<input type='number' name='foneNumber' />
+												<label>Telephone</label>
+											</div>
+											<div className='input-field col s6'>
+												<input type='email' name='mail' />
+												<label>Mail</label>
+											</div>
+										</div>
+
+										<div className='row'>
+											<Row>
+												<Textarea
+													name='message'
+													id='Textarea-12'
+													l={12}
+													m={12}
+													s={12}
+													xl={12}
+													placeholder='Tapez votre message ici'
+													icon={<Icon>mode_edit</Icon>}
+												/>
+											</Row>
+										</div>
+										<div className='row'>
+											<div className='col s12'>
+												<button node='button' type='submit' waves='light' className='purple darken-4'>
+													<span className='purple-text text-lighten-5'>Envoyer</span>
+													<Icon left>
+														<span className='purple-text text-lighten-5'>send</span>
+													</Icon>
+												</button>
+											</div>
+										</div>
+									</div>
+								</form>
+								
 							</Card>
 						</Col>
 					</Col>
