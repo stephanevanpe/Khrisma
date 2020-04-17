@@ -53,8 +53,9 @@ class Contact extends Component {
 										</Button>
 									</div>
 								</div>
-								<form name='khrismacontact' data-netlify='true' method='POST' action='/'>
-									<input type='hidden' name='form-name' value='contact' />
+								<form className='khrismacontac' name='khrismacontact' data-netlify='true' method='POST' action='/' data-netlify-honeypot='bot-field'>
+									<input type='hidden' name='form-name' value='khrismacontact' />
+									<input type='hidden' name='bot-field' />
 									<p>
 										<p className='row'>
 											<p className='input-field col s6'>
