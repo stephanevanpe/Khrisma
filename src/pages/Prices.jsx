@@ -22,7 +22,7 @@ const Prices = () => {
 							<Table>
 								<thead>
 									<tr>
-										<th data-field='name'>Type de consulatation</th>
+										<th data-field='name'>Type de consultation</th>
 										<th data-field='price'>Prix</th>
 									</tr>
 								</thead>
