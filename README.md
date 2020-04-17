@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c2270fa1-f1ff-4363-907b-3c6146d1c258/deploy-status)](https://app.netlify.com/sites/khrisma/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
