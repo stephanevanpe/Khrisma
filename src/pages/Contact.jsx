@@ -52,7 +52,7 @@ class Contact extends Component {
 										</Button>
 									</div>
 								</div>
-								<form id='ContactForm' method='POST' netlify>
+								<form id='ContactForm' method='POST' data-netlify='true'>
 									<div className='row'>
 										<div className='input-field col s6'>
 											<input type='text' name='firstName' />
