@@ -38,6 +38,7 @@ class Contact extends Component {
 									<div className='col s12'>
 										<Button
 											node='button'
+											floating
 											tooltip='06 46 12 65 28'
 											tooltipOptions={{
 												position: 'right',
@@ -123,7 +124,7 @@ class Contact extends Component {
 							>
 								11 rue Pierre Hugues 40220 Tarnos France
 								<div>
-									<Map center={position} zoom={this.state.zoom} style={{ marginLeft: '15px', marginRight: '15px', height: '250px', width: '100%' }}>
+									<Map center={position} zoom={this.state.zoom} style={{ marginLeft: '0px', marginRight: '0px', height: '250px', width: '100%' }}>
 										<TileLayer
 											attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 											url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
