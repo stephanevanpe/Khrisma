@@ -20,7 +20,7 @@ class Contact extends Component {
 		const position = [this.state.lat, this.state.lng];
 		return (
 			<div>
-			<Navbar />
+				<Navbar />
 
 				<Row>
 					<Col s={1}></Col>
@@ -122,7 +122,11 @@ class Contact extends Component {
 								textClassName='purple-text text-darken-4'
 								title='Lieux du cabinet'
 							>
-								11 rue Pierre Hugues 40220 Tarnos France
+								11 rue Pierre Hugues <br />
+								40220 Tarnos <br />
+								France
+								<br />
+								<br />
 								<div>
 									<Map center={position} zoom={this.state.zoom} style={{ marginLeft: '0px', marginRight: '0px', height: '250px', width: '100%' }}>
 										<TileLayer
@@ -154,8 +158,7 @@ class Contact extends Component {
 					<Col s={1}></Col>
 				</Row>
 				<Footer />
-				</div>
-
+			</div>
 		);
 	}
 }
