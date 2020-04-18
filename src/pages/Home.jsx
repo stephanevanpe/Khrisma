@@ -26,7 +26,7 @@ const Home = () => {
 								<img alt='' src={Deco1} /> Khrisma <img alt='' src={Deco2} />
 							</h1>
 						</Col>
-						<h4 className='header purple-text text-darken-4'> Medium de naissance - Magnétisme holistique - Coupeur de feu et de rayons - Maître Reiki</h4>
+						<h4 className='header purple-text text-darken-4'> Médium de naissance - Magnétisme holistique - Coupeur de feu et de rayons - Maître Reiki</h4>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, cursive', fontSize: '40px' }}>
 							" <b>J</b>e me suis rendue compte que mes aptitudes me servaient pour aider à la gestion du deuil et des blocages divers, tout en tenant compte
 							de la généalogie. Les cartes, les mots, l'écriture viennent à mon aide . "
@@ -44,11 +44,9 @@ const Home = () => {
 					<div className='row container'>
 						<hr />
 						<h4 className='header purple-text text-darken-4'>Déroulement de la consultation</h4>
+
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, cursive', fontSize: '40px' }}>
-							<li><b>P</b>rise de rendez-vous, soit par téléphone, soit directement à mon cabinet.</li> 
-						</p>
-						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, cursive', fontSize: '40px' }}>
-							<b>F</b>aites-moi part de votre problème : mal-être, deuil (mort naturelle,
+							<b>C</b>ontactez-moi et faites-moi part de votre problème : mal-être, deuil (mort naturelle,
 							suicide, maladie, accident) activité professionnelle, amour, immobilier (blocage) etc.. Et je saurai, dès lors si cela rentre dans mes
 							compétences, si tel est le cas, nous organiserons un rendez-vous téléphonique.
 						</p>
