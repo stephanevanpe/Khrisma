@@ -88,7 +88,19 @@ handleSubmit = e => {
 										</Button>
 									</div>
 								</div>
-								<form className='khrismacontac' form-name="contact"  data-netlify="true" onSubmit={this.handleSubmit}>
+								<form name="contact"  method="post"
+          			action="/thanks/"
+          			data-netlify="true"
+          			data-netlify-honeypot="bot-field"
+          			onSubmit={this.handleSubmit}
+        				>
+									<input type="hidden" name="form-name" value="contact" />
+          <p hidden>
+            <label>
+              Don’t fill this out:{" "}
+              <input name="bot-field" onChange={this.handleChange} />
+            </label>
+          </p>
 									<div>
 										<div className='row'>
 											<p className='input-field col s6'>
