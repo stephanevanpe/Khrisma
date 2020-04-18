@@ -3,7 +3,7 @@ import { Parallax, Row, Col } from 'react-materialize';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Lotus from '../pictures/62a47d8e4ab364cf476f25a473b23c75.jpg';
-import Lotusbloom from '../pictures/nenuphar_bali.jpg';
+import Lotusbloom from '../pictures/lotosblume-6e34f198-4e69-4fbb-99a0-6e5ede854fbf.jpg';
 import Deco1 from '../pictures/pngwave1.png';
 import Deco2 from '../pictures/pngwave.png';
 

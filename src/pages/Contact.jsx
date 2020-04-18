@@ -4,8 +4,8 @@ import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 import swal from 'sweetalert';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import Cabinet from '../pictures/Cabinet.jpg'
-import Background from '../pictures/image4.jpeg';
+import Cabinet from '../pictures/100_6943.jpeg'
+import Background from '../pictures/62a47d8e4ab364cf476f25a473b23c75.jpg';
 
 
 class Contact extends Component {

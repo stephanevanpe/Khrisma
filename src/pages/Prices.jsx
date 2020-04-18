@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col, Card, Icon, Table } from 'react-materialize';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import Background from '../pictures/image4.jpeg';
+import Background from '../pictures/62a47d8e4ab364cf476f25a473b23c75.jpg';
 
 const Prices = () => {
 	return (
