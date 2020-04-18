@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Row, Col, Card, Icon, Button} from 'react-materialize';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 import swal from 'sweetalert';
-
+import { navigateTo } from "gatsby-link";
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Cabinet from '../pictures/Cabinet.jpg'
@@ -31,18 +31,23 @@ class Contact extends Component {
 	}
 
 handleSubmit = e => {
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "form-name": "contact", ...this.state })
+    e.preventDefault();
+    const form = e.target;
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({
+        "form-name": form.getAttribute("name"),
+        ...this.state
       })
-        .then(() => alert("Message envoyé"))
-        .catch(error => alert(error));
+    })
+      .then(() => navigateTo(form.getAttribute("action")))
+      .catch(error => alert(error));
+  };
 
-      e.preventDefault();
-    };
-
-    handleChange = e => this.setState({ [e.target.name]: e.target.value });
+    handleChange = e => {
+    this.setState({ [e.target.name]: e.target.value });
+  };
 
 	render() {
 		const {name,
