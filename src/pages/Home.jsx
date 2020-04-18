@@ -90,7 +90,7 @@ const Home = () => {
 							<Col s={1}></Col>
 							<Col s={1}></Col>
 							<Col className='yellow-text text-darken-3' s={5}>
-								" Accepte ce qui est, laisse aller ce qui était, et aie confiance en ce qui sera "<br />
+								« Accepte ce qui est, laisse aller ce qui était, et aie confiance en ce qui sera »<br />
 								Citation de BOUDDHA
 							</Col>
 						</Row>
