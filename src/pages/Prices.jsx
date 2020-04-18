@@ -2,11 +2,29 @@ import React from 'react';
 import { Row, Col, Card, Icon, Table } from 'react-materialize';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import Background from '../pictures/image4.jpeg';
 
 const Prices = () => {
 	return (
-		<div>
+		<div style={{
+					marginLeft: '0px',
+					marginRight: '0px',
+					backgroundImage: `url(${Background})`,
+					backgroundPosition: 'center',
+					backgroundSize: 'cover',
+					backgroundRepeat: 'no-repeat',
+					height: 'auto',
+					width: '100%'
+				}}>
 			<Navbar />
+			<Row>
+			</Row>
+			<Row>
+			</Row>
+			<Row>
+			</Row>
+			<Row>
+			</Row>
 			<Row>
 				<Col s={1}></Col>
 				<Col s={10}>
@@ -50,6 +68,10 @@ const Prices = () => {
 					</Col>
 				</Col>
 				<Col s={1}></Col>
+			</Row>
+			<Row>
+			</Row>
+			<Row>
 			</Row>
 			<Footer />
 		</div>

@@ -5,6 +5,7 @@ import swal from 'sweetalert';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Cabinet from '../pictures/Cabinet.jpg'
+import Background from '../pictures/image4.jpeg';
 
 
 class Contact extends Component {
@@ -19,7 +20,16 @@ class Contact extends Component {
 		const position = [43.5405622, -1.4611915];
 		const zoom =16;
 		return (
-			<div>
+			<div style={{
+					marginLeft: '0px',
+					marginRight: '0px',
+					backgroundImage: `url(${Background})`,
+					backgroundPosition: 'center',
+					backgroundSize: 'cover',
+					backgroundRepeat: 'no-repeat',
+					height: 'auto',
+					width: '100%'
+				}}>
 				<Navbar />
 
 				<Row>
