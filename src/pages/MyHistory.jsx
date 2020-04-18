@@ -1,5 +1,6 @@
 import React from 'react';
 import { Parallax } from 'react-materialize';
+import swal from 'sweetalert';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Lotus from '../pictures/62a47d8e4ab364cf476f25a473b23c75.jpg';
@@ -34,7 +35,7 @@ const MyHistory = () => {
 							<b>U</b>n peu plus tard dans ma vie, j'ai eu un problème sur la table d'opération, à cet instant j'ai pu entrevoir l'autre côté du voile. Nos
 							êtres disparus sont bien présents dans un amour total et inconditionnel, tellement grand que je ne peux vous décrire sa lumière et sa douceur.
 						</p>
-						<img alt='' src={Ange}/>
+						<img alt='' src={Ange} onClick={() => swal({ icon: `${Ange}`,text: "Cette peinture a été réalisée par mes soins.",  })}/>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, cursive', fontSize: '40px' }}>
 							<b>P</b>uis pendant deux ans, de très nombreux ''départs'' dans mon entourage!!! A ce moment là, j'ai rencontré une amie chère,versée depuis
 							son enfance dans le domaine spirituel, qui elle aussi était en deuil. Je l'ai aidée et elle m'a surtout aidé à accepter et à comprendre à quoi

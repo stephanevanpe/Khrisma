@@ -88,7 +88,7 @@ handleSubmit = e => {
 										</Button>
 									</div>
 								</div>
-								<form className='khrismacontac' name="contact" netlify onSubmit={this.handleSubmit}>
+								<form className='khrismacontac' form-name="contact"  data-netlify onSubmit={this.handleSubmit}>
 									<div>
 										<div className='row'>
 											<p className='input-field col s6'>
