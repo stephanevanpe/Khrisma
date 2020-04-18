@@ -18,7 +18,8 @@ const Prices = () => {
 							textClassName='purple-text text-darken-4'
 							title='Tarification'
 						>
-							11 rue Pierre Hugues 40220 Tarnos France
+							Pour les consultations à distance merci de me faire parvenir le chéque à cette adresse: 11 rue Pierre Hugues 40220 Tarnos France
+							<br/>
 							<Table>
 								<thead>
 									<tr>
