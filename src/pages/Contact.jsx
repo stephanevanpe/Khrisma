@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row,Textarea, Col, Card, Icon, Button} from 'react-materialize';
+import { Row, Col, Card, Icon, Button} from 'react-materialize';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 import swal from 'sweetalert';
 
@@ -26,7 +26,7 @@ class Contact extends Component {
 			city:"",
 			foneNumber:"",
 			mail:"",
-			message:""
+			message:"",
 		};
 	}
 
@@ -128,15 +128,15 @@ handleSubmit = e => {
 
 										<div className='row'>
 											<Row>
-												<Textarea
+												<Icon>mode_edit</Icon>
+												<textarea
 													name='message'
-													id='Textarea-12'
+													type='text'
 													l={12}
 													m={12}
 													s={12}
 													xl={12}
 													placeholder='Tapez votre message ici'
-													icon={<Icon>mode_edit</Icon>}
 													value={message} onChange={this.handleChange}
 												/>
 											</Row>
