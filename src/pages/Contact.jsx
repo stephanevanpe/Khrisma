@@ -2,63 +2,23 @@ import React, { Component } from 'react';
 import { Row, Col, Card, Icon, Button} from 'react-materialize';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 import swal from 'sweetalert';
-import { navigateTo } from "gatsby-link";
+import NetlifyForm from 'react-netlify-form';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Cabinet from '../pictures/Cabinet.jpg'
 
-const encode = (data) => {
-    return Object.keys(data)
-        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-        .join("&");
-  }
+
 class Contact extends Component {
 	constructor(props) {
 		super(props);
-		this.state = {
-			lat: 43.5492979,
-			lng: -1.4872277,
-			zoom: 16,
-			name:"",
-			firstname:"",
-			birthday:"",
-			zipcode:"",
-			city:"",
-			foneNumber:"",
-			mail:"",
-			message:"",
-		};
+		this.state= props.formFields;
 	}
 
-handleSubmit = e => {
-    e.preventDefault();
-    const form = e.target;
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({
-        "form-name": form.getAttribute("name"),
-        ...this.state
-      })
-    })
-      .then(() => navigateTo(form.getAttribute("action")))
-      .catch(error => alert(error));
-  };
-
-    handleChange = e => {
-    this.setState({ [e.target.name]: e.target.value });
-  };
 
 	render() {
-		const {name,
-			firstname,
-			birthday,
-			zipcode,
-			city,
-			foneNumber,
-			mail,
-			message} =this.state
-		const position = [this.state.lat, this.state.lng];
+
+		const position = [43.5492979, -1.4872277];
+		const zoom =16;
 		return (
 			<div>
 				<Navbar />
@@ -93,83 +53,29 @@ handleSubmit = e => {
 										</Button>
 									</div>
 								</div>
-								<form name="contact"  method="post"
-          			action="/thanks/"
-          			data-netlify="true"
-          			data-netlify-honeypot="bot-field"
-          			onSubmit={this.handleSubmit}
-        				>
-									<input type="hidden" name="form-name" value="contact" />
-          <p hidden>
-            <label>
-              Don’t fill this out:{" "}
-              <input name="bot-field" onChange={this.handleChange} />
-            </label>
-          </p>
-									<div>
-										<div className='row'>
-											<p className='input-field col s6'>
-												<input type='text' name='name' value={name} onChange={this.handleChange} />
-												<label>Nom</label>
-											</p>
-											<p className='input-field col s6'>
-												<input type='text' name='firstname' value={firstname} onChange={this.handleChange} />
-												<label>Prénom</label>
-											</p>
-										</div>
-										<br />
-										<div className='row'>
-											<p className='input-field col s4'>
-												<input type='date' name='birthday' value={birthday} onChange={this.handleChange}/>
-												<label>Date de naissance</label>
-											</p>
-											<p className='input-field col s4'>
-												<input type='number' name='zipcode' value={zipcode} onChange={this.handleChange}/>
-												<label>Code postale</label>
-											</p>
-											<p className='input-field col s4'>
-												<input type='text' name='city' value={city} onChange={this.handleChange}/>
-												<label>Ville</label>
-											</p>
-										</div>
-										<div className='row'>
-											<p className='input-field col s6'>
-												<input type='number' name='foneNumber' value={foneNumber} onChange={this.handleChange} />
-												<label>Telephone</label>
-											</p>
-											<p className='input-field col s6'>
-												<input type='email' name='mail' value={mail} onChange={this.handleChange}/>
-												<label>Mail</label>
-											</p>
-										</div>
-
-										<div className='row'>
-											<Row>
-												<Icon>mode_edit</Icon>
-												<textarea
-													name='message'
-													type='text'
-													l={12}
-													m={12}
-													s={12}
-													xl={12}
-													placeholder='Tapez votre message ici'
-													value={message} onChange={this.handleChange}
-												/>
-											</Row>
-										</div>
-										<div className='row'>
-											<p className='col s12'>
-												<Button node='button' type='submit' waves='light' className='purple darken-4'>
-													<span className='purple-text text-lighten-5'>Envoyer</span>
-													<Icon left>
-														<span className='purple-text text-lighten-5'>send</span>
-													</Icon>
-												</Button>
-											</p>
-										</div>
-									</div>
-								</form>
+								<NetlifyForm name='Contact Form'>
+  {({ loading, error, success }) => (
+    <div>
+      {loading &&
+        <div>Loading...</div>
+      }
+      {error &&
+        <div>Your information was not sent. Please try again later.</div>
+      }
+      {success &&
+        <div>Thank you for contacting us!</div>
+      }
+      {!loading && !success &&
+        <div>
+          <input type='text' name='Name' required />
+          <textarea name='Message' required />
+          <button>Submit</button>
+        </div>
+      }
+    </div>
+  )}
+</NetlifyForm>
+								
 							</Card>
 						</Col>
 					</Col>
@@ -193,7 +99,7 @@ handleSubmit = e => {
 								<br />
 								<br />
 								<div>
-									<Map center={position} zoom={this.state.zoom} style={{ marginLeft: '0px', marginRight: '0px', height: '250px', width: '100%' }}>
+									<Map center={position} zoom={zoom} style={{ marginLeft: '0px', marginRight: '0px', height: '250px', width: '100%' }}>
 										<TileLayer
 											attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 											url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
@@ -227,5 +133,6 @@ handleSubmit = e => {
 		);
 	}
 }
+
 
 export default Contact;
