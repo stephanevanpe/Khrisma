@@ -7,7 +7,11 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Cabinet from '../pictures/Cabinet.jpg'
 
-
+const encode = (data) => {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&");
+  }
 class Contact extends Component {
 	constructor(props) {
 		super(props);
@@ -15,9 +19,40 @@ class Contact extends Component {
 			lat: 43.5492979,
 			lng: -1.4872277,
 			zoom: 16,
+			name:"",
+			firstname:"",
+			birthday:"",
+			zipcode:"",
+			city:"",
+			foneNumber:"",
+			mail:"",
+			message:""
 		};
 	}
+
+handleSubmit = e => {
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode({ "form-name": "contact", ...this.state })
+      })
+        .then(() => alert("Message envoyé"))
+        .catch(error => alert(error));
+
+      e.preventDefault();
+    };
+
+    handleChange = e => this.setState({ [e.target.name]: e.target.value });
+
 	render() {
+		const {name,
+			firstname,
+			birthday,
+			zipcode,
+			city,
+			foneNumber,
+			mail,
+			message} =this.state
 		const position = [this.state.lat, this.state.lng];
 		return (
 			<div>
@@ -53,42 +88,40 @@ class Contact extends Component {
 										</Button>
 									</div>
 								</div>
-								<form className='khrismacontac' name='khrismacontact' data-netlify='true' method='POST' action='/' data-netlify-honeypot='bot-field'>
-									<input type='hidden' name='form-name' value='khrismacontact' />
-									<input type='hidden' name='bot-field' />
+								<form className='khrismacontac' name='khrismacontact' onSubmit={this.handleSubmit}>
 									<div>
 										<div className='row'>
 											<p className='input-field col s6'>
-												<input type='text' name='firstName' />
+												<input type='text' name='name' value={name} onChange={this.handleChange} />
 												<label>Nom</label>
 											</p>
 											<p className='input-field col s6'>
-												<input type='text' name='lastName' />
+												<input type='text' name='firstname' value={firstname} onChange={this.handleChange} />
 												<label>Prénom</label>
 											</p>
 										</div>
 										<br />
 										<div className='row'>
 											<p className='input-field col s4'>
-												<input type='date' name='birthday' />
+												<input type='date' name='birthday' value={birthday} onChange={this.handleChange}/>
 												<label>Date de naissance</label>
 											</p>
 											<p className='input-field col s4'>
-												<input type='number' name='zipcode' />
+												<input type='number' name='zipcode' value={zipcode} onChange={this.handleChange}/>
 												<label>Code postale</label>
 											</p>
 											<p className='input-field col s4'>
-												<input type='text' name='city' />
+												<input type='text' name='city' value={city} onChange={this.handleChange}/>
 												<label>Ville</label>
 											</p>
 										</div>
 										<div className='row'>
 											<p className='input-field col s6'>
-												<input type='number' name='foneNumber' />
+												<input type='number' name='foneNumber' value={foneNumber} onChange={this.handleChange} />
 												<label>Telephone</label>
 											</p>
 											<p className='input-field col s6'>
-												<input type='email' name='mail' />
+												<input type='email' name='mail' value={mail} onChange={this.handleChange}/>
 												<label>Mail</label>
 											</p>
 										</div>
@@ -104,6 +137,7 @@ class Contact extends Component {
 													xl={12}
 													placeholder='Tapez votre message ici'
 													icon={<Icon>mode_edit</Icon>}
+													value={message} onChange={this.handleChange}
 												/>
 											</Row>
 										</div>
