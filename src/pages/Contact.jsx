@@ -34,6 +34,8 @@ class Contact extends Component {
 				<Row>
 				</Row>
 				<Row>
+				</Row>
+				<Row>
 					<Col s={1}></Col>
 					<Col s={10}>
 						<Col s={12}>
