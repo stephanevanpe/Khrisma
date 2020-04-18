@@ -31,7 +31,8 @@ class Contact extends Component {
 					width: '100%'
 				}}>
 				<Navbar />
-
+				<Row>
+				</Row>
 				<Row>
 					<Col s={1}></Col>
 					<Col s={10}>
@@ -82,7 +83,6 @@ class Contact extends Component {
 					</Col>
 					<Col s={1}></Col>
 				</Row>
-				<br />
 				<Row>
 					<Col s={1}></Col>
 					<Col s={10}>

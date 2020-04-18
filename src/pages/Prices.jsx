@@ -36,7 +36,7 @@ const Prices = () => {
 							textClassName='purple-text text-darken-4'
 							title='Tarification'
 						>
-							Pour les consultations à distance merci de me faire parvenir le chéque à l'adresse que je vous communiquerai.
+							Pour les consultations à distance, merci de me faire parvenir le chèque à l'adresse que je vous communiquerai.
 							<br/>
 							<Table>
 								<thead>
