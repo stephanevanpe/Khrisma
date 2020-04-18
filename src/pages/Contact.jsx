@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Row, Col, Card, Icon, Button} from 'react-materialize';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 import swal from 'sweetalert';
-import NetlifyForm from 'react-netlify-form';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Cabinet from '../pictures/Cabinet.jpg'
