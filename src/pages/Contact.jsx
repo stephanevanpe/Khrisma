@@ -16,7 +16,7 @@ class Contact extends Component {
 
 	render() {
 
-		const position = [43.5492979, -1.4872277];
+		const position = [43.5405622, -1.4611915];
 		const zoom =16;
 		return (
 			<div>
@@ -31,11 +31,25 @@ class Contact extends Component {
 								closeIcon={<Icon>close</Icon>}
 								revealIcon={<Icon>more_vert</Icon>}
 								textClassName='purple-text text-darken-4'
-								title='Laissez moi un message ou appellez-moi'
+								title='Envoyez-moi un message ou appellez-moi'
 							>
 								
 								<div className='row'>
 									<div className='col s12'>
+										<Button
+											node='button'
+											floating
+											tooltip='Khrisma@hotmail.fr'
+											tooltipOptions={{
+												position: 'left',
+											}}
+											waves='light'
+											className='purple darken-4'
+										>
+											<Icon left>
+												<span className='purple-text text-lighten-5'>email</span>
+											</Icon>
+										</Button>{' '}
 										<Button
 											node='button'
 											floating
@@ -70,9 +84,7 @@ class Contact extends Component {
 								textClassName='purple-text text-darken-4'
 								title='Lieux du cabinet'
 							>
-								11 rue Pierre Hugues <br />
-								40220 Tarnos <br />
-								France
+								Cabinet à Tarnos
 								<br />
 								<br />
 								<div>
@@ -87,13 +99,12 @@ class Contact extends Component {
 													src={Cabinet}
 													alt='déchets'
 													style={{
-														height: '50px',
-														weight: '80px',
+														height: '40px',
+														weight: 'auto',
 													}}
 													onClick={() => swal({ icon: `${Cabinet}` })}
 												/>
-												<br />
-												11 rue Pierre Hugues
+
 												<br /> 40220 Tarnos
 												<br /> France
 											</Popup>

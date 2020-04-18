@@ -3,7 +3,7 @@ import { Parallax } from 'react-materialize';
 import swal from 'sweetalert';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import Lotus from '../pictures/62a47d8e4ab364cf476f25a473b23c75.jpg';
+import Lotus from '../pictures/image1.jpeg';
 import Chapeau from '../pictures/unnamed.png';
 import Ange from '../pictures/Ange.jpg';
 

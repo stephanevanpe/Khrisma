@@ -3,8 +3,7 @@ import { Parallax, Row, Col } from 'react-materialize';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Lotus from '../pictures/62a47d8e4ab364cf476f25a473b23c75.jpg';
-import Salle from '../pictures/salle.jpg';
-import Lotusbloom from '../pictures/lotosblume-6e34f198-4e69-4fbb-99a0-6e5ede854fbf.jpg';
+import Lotusbloom from '../pictures/nenuphar_bali.jpg';
 import Deco1 from '../pictures/pngwave1.png';
 import Deco2 from '../pictures/pngwave.png';
 
@@ -14,7 +13,7 @@ const Home = () => {
 			<Navbar />
 			<div>
 				<Parallax
-					image={<img alt='' src={Lotusbloom} />}
+					image={<img alt=' medium tarnos, fleur de lotus' src={Lotusbloom} />}
 					options={{
 						responsiveThreshold: 0,
 					}}
@@ -101,7 +100,7 @@ const Home = () => {
 					</div>
 				</div>
 				<Parallax
-					image={<img alt='' src={Salle} />}
+					image={<img alt='' src={Lotusbloom} />}
 					options={{
 						responsiveThreshold: 0,
 					}}
