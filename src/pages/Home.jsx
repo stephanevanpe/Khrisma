@@ -51,7 +51,7 @@ const Home = () => {
 							compétences , si tel est le cas , nous organiserons un rendez-vous téléphonique .
 						</p>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand', fontSize: '40px' }}>
-							<b>L</b>ors de ce dernier , j'établirai un petit arbre généalogique ( ne vous inquiétiez pas , tout ce qu'il y a de plus simple ) . Les éléments manquants viendront à moi et je regarderai ce qui ne va pas en Médiumnité.
+							<b>L</b>ors de ce dernier , j'établirai un petit arbre généalogique ( ne vous inquiétiez pas , tout ce qu'il y a de plus simple ) . Les éléments manquants viendront à moi et je regarderai ce qui ne va pas en Médiumnité .
 							Je fixerai alors le jour de notre prochain rendez-vous téléphonique ou physique afin d'intervenir sur votre cas .
 						</p> 
 						<p className='grey-text text-darken-3 lighten-3' ><b> « CELA MARCHE TRES BIEN A DISTANCE »</b></p> 
