@@ -32,7 +32,7 @@ const MyHistory = () => {
 							avec lui , et j'ai su à quel moment il avait fait le choix de nous quitter . Je n'en ai jamais parlé à personne .
 						</p>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, cursive', fontSize: '40px' }}>
-							<b>U</b>n peu plus tard dans ma vie , j'ai eu un problème sur la table d'opération . A cet instant , j'ai pu entrevoir l'autre côté du "voile" . Nos
+							<b>U</b>n peu plus tard dans ma vie , j'ai eu un problème sur la table d'opération . A cet instant , j'ai pu entrevoir l'autre côté du " voile " . Nos
 							êtres disparus sont bien présents dans un amour total , inconditionnel et tellement grand que je ne pourrais vous décrire sa lumière et sa douceur .
 						</p>
 						<img alt='' src={Ange} onClick={() => swal({ icon: `${Ange}`,text: "Cette peinture a été réalisée par mes soins .",  })}/>
@@ -43,12 +43,12 @@ const MyHistory = () => {
 							gens que je rencontrais tant dans ma vie privée que professionnelle et j'y prenais grand plaisir !
 						</p>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, cursive', fontSize: '40px' }}>
-							<b>P</b>uis chômage ... "C'est le moment je me lance !"
+							<b>P</b>uis chômage ... " C'est le moment je me lance ! "
 						</p>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, cursive', fontSize: '40px' }}>
 							<b>L</b>ors des consultations , je me sers du magnétisme holistique , des flashs (images) , des paroles et des sensations que je perçois , ainsi que
-							des cartes qui me confirment l'évolution spirituelle de la personne . Et même , du pendule si besoin , du reiki et de la géobiologie . Je me sers de "
-							l'outil " dont j'ai besoin sur le moment en complèment . "
+							des cartes qui me confirment l'évolution spirituelle de la personne . Et même , du pendule si besoin , du reiki et de la géobiologie . Je me sers de 
+							" l'outil " dont j'ai besoin sur le moment en complèment . "
 						</p>
 						<img alt='' src={Chapeau} height='85px' weight='auto' />
 						<hr />
