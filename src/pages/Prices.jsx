@@ -3,6 +3,7 @@ import { Row, Col, Card, Icon, Table } from 'react-materialize';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Background from '../pictures/62a47d8e4ab364cf476f25a473b23c75.jpg';
+import Plume from '../pictures/plume.png';
 
 const Prices = () => {
 	return (
@@ -73,6 +74,9 @@ const Prices = () => {
 			</Row>
 			<Row>
 			</Row>
+			<div align="left">
+				<img alt='' src={Plume} style={{height:'150px',weight:'auto', marginTop:'0px', marginBottom:'0px'}}  />
+				</div>
 			<Footer />
 		</div>
 	);
