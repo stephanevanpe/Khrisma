@@ -22,7 +22,7 @@ const Home = () => {
 					<div className='row container'>
 						<hr />
 						<Col s={12}>
-							<h1 className='yellow-text text-darken-3'>
+							<h1 style={{color:'#d2b16c'}}>
 								<img alt='' src={Deco1} /> Khrisma <img alt='' src={Deco2} />
 							</h1>
 						</Col>
@@ -87,7 +87,7 @@ const Home = () => {
 							<Col s={1}></Col>
 							<Col s={1}></Col>
 							<Col s={1}></Col>
-							<Col className='yellow-text text-darken-3' s={7}  align="right">
+							<Col style={{color:'#d2b16c'}} s={7}  textAlign="right">
 								« Accepte ce qui est, laisse aller ce qui était, et aie confiance en ce qui sera »<br />
 								BOUDDHA
 							</Col>
