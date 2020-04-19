@@ -21,11 +21,11 @@ const Fouter = () => {
 					<p className='purple-text text-darken-4' href='#!'>
 						{' '}
 						Krisma N° SIREN: 831 976 543
-					</p>
-					<a className='purple-text text-darken-4' href='https://www.linkedin.com/in/stephane-van-pe/'>
 						{' '}
-						Réalisé par Stéphane Van Pé
+					<a className='purple-text text-darken-4' href='https://www.linkedin.com/in/stephane-van-pe/' >
+						- Réalisé par Stéphane Van Pé
 					</a>
+					</p>
 				</>
 			}
 		></Footer>

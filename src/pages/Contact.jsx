@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Cabinet from '../pictures/100_6943.jpeg'
 import Background from '../pictures/62a47d8e4ab364cf476f25a473b23c75.jpg';
-
+import PlumeO from '../pictures/Fond-avec-plume.png';
 
 class Contact extends Component {
 	constructor(props) {
@@ -35,7 +35,7 @@ class Contact extends Component {
 				</Row>
 				<Row>
 				</Row>
-				<Row>
+				<Row style={{marginbottom:'0px'}}>
 					<Col s={1}></Col>
 					<Col s={10}>
 						<Col s={12}>
@@ -45,8 +45,9 @@ class Contact extends Component {
 								revealIcon={<Icon>more_vert</Icon>}
 								textClassName='purple-text text-darken-4'
 								title='Envoyez-moi un message ou appellez-moi'
+								margin-bottom='0px'
 							>
-								
+								<br/>
 								<div className='row'>
 									<div className='col s12'>
 										<Button
@@ -79,12 +80,13 @@ class Contact extends Component {
 										</Button>
 									</div>
 								</div>
-								
 							</Card>
 						</Col>
 					</Col>
 					<Col s={1}></Col>
 				</Row>
+
+
 				<Row>
 					<Col s={1}></Col>
 					<Col s={10}>
@@ -128,6 +130,9 @@ class Contact extends Component {
 					</Col>
 					<Col s={1}></Col>
 				</Row>
+				<div align="right">
+				<img alt='' src={PlumeO} style={{height:'100px',weight:'auto', marginTop:'0px', marginBottom:'0px'}}  />
+				</div>
 				<Footer />
 			</div>
 		);
