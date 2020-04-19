@@ -75,7 +75,7 @@ const Prices = () => {
 			<Row>
 			</Row>
 			<div align="left">
-				<img alt='' src={Plume} style={{height:'150px',weight:'auto', marginTop:'0px', marginBottom:'0px'}}  />
+				<img alt='medium tarnos khrisma' src={Plume} style={{height:'150px',weight:'auto', marginTop:'0px', marginBottom:'0px'}}  />
 				</div>
 			<Footer />
 		</div>

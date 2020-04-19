@@ -131,7 +131,7 @@ class Contact extends Component {
 					<Col s={1}></Col>
 				</Row>
 				<div align="right">
-				<img alt='' src={PlumeO} style={{height:'100px',weight:'auto', marginTop:'0px', marginBottom:'0px'}}  />
+				<img alt='medium tarnos khrisma' src={PlumeO} style={{height:'100px',weight:'auto', marginTop:'0px', marginBottom:'0px'}}  />
 				</div>
 				<Footer />
 			</div>

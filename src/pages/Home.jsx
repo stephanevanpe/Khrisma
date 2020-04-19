@@ -13,7 +13,7 @@ const Home = () => {
 			<Navbar />
 			<div>
 				<Parallax
-					image={<img alt=' medium tarnos, fleur de lotus' src={Lotusbloom} />}
+					image={<img alt=' medium tarnos khrisma, fleur de lotus' src={Lotusbloom} />}
 					options={{
 						responsiveThreshold: 0,
 					}}
@@ -23,7 +23,7 @@ const Home = () => {
 						<hr />
 						<Col s={12}>
 							<h1 style={{color:'#d2b16c'}}>
-								<img alt='' src={Deco1} /> Khrisma <img alt='' src={Deco2} />
+								<img alt='' src={Deco1} /> Khrisma <img alt='medium tarnos khrisma' src={Deco2} />
 							</h1>
 						</Col>
 						<h4 className='header purple-text text-darken-4'> Médium de naissance - Magnétisme holistique - Coupeur de feu et de rayons - Maître Reiki</h4>
@@ -35,7 +35,7 @@ const Home = () => {
 					</div>
 				</div>
 				<Parallax
-					image={<img alt='' src={Lotus} />}
+					image={<img alt='medium tarnos khrisma' src={Lotus} />}
 					options={{
 						responsiveThreshold: 0,
 					}}
@@ -96,7 +96,7 @@ const Home = () => {
 					</div>
 				</div>
 				<Parallax
-					image={<img alt='' src={Lotusbloom} />}
+					image={<img alt='medium tarnos khrisma' src={Lotusbloom} />}
 					options={{
 						responsiveThreshold: 0,
 					}}
