@@ -66,20 +66,22 @@ class Contact extends Component {
 												</Icon>
 											</Button>{' '}
 										</a>
-										<Button
-											node='button'
-											floating
-											tooltip='06 46 12 65 28'
-											tooltipOptions={{
-												position: 'right',
-											}}
-											waves='light'
-											className='purple darken-4'
-										>
-											<Icon left>
-												<span className='purple-text text-lighten-5'>call</span>
-											</Icon>
-										</Button>
+										<a href='tel:+33646126528'>
+											<Button
+												node='button'
+												floating
+												tooltip='06 46 12 65 28'
+												tooltipOptions={{
+													position: 'right',
+												}}
+												waves='light'
+												className='purple darken-4'
+											>
+												<Icon left>
+													<span className='purple-text text-lighten-5'>call</span>
+												</Icon>
+											</Button>
+										</a>
 									</div>
 								</div>
 							</Card>
