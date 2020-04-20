@@ -66,7 +66,7 @@ class Contact extends Component {
 												</Icon>
 											</Button>{' '}
 										</a>
-										<a href='tel:+33646126528'>
+										<a href='tel:0646126528'>
 											<Button
 												node='button'
 												floating
