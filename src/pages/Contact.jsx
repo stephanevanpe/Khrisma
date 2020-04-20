@@ -50,21 +50,22 @@ class Contact extends Component {
 								<br />
 								<div className='row'>
 									<div className='col s12'>
-										<Button
-											node='button'
-											floating
-											tooltip='Khrisma@hotmail.fr'
-											tooltipOptions={{
-												position: 'left',
-											}}
-											waves='light'
-											className='purple darken-4'
-								
-										>
-											<Icon left>
-												<span className='purple-text text-lighten-5'>email</span>
-											</Icon>
-										</Button>{' '}
+										<a href='mailto:Khrisma@hotmail.fr'>
+											<Button
+												node='button'
+												floating
+												tooltip='Khrisma@hotmail.fr'
+												tooltipOptions={{
+													position: 'left',
+												}}
+												waves='light'
+												className='purple darken-4'
+											>
+												<Icon left>
+													<span className='purple-text text-lighten-5'>email</span>
+												</Icon>
+											</Button>{' '}
+										</a>
 										<Button
 											node='button'
 											floating
