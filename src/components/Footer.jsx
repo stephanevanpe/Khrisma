@@ -9,7 +9,7 @@ const Fouter = () => {
 			copyrights='©2020 Copyright tous droits réservés'
 			moreLinks={
 				<>
-					<a href='https://www.facebook.com/Khrisma-medium-316028152260673/' target='_blank'>
+					<a href='https://www.facebook.com/Khrisma-medium-316028152260673/' target='_blank' rel='noopener noreferrer'>
 						<Button node='button' floating waves='light' className='purple darken-4 right'>
 							<Icon left>
 								<span className='purple-text text-lighten-5' style={{ fontFamily: 'klavika', fontSize: '35px' }}>
@@ -21,7 +21,7 @@ const Fouter = () => {
 					<p className='purple-text text-darken-4' href='#!'>
 						{' '}
 						Krisma N° SIREN: 831 976 543{' '}
-						<a className='purple-text text-darken-4' href='https://www.linkedin.com/in/stephane-van-pe/' target='_blank'>
+						<a className='purple-text text-darken-4' href='https://www.linkedin.com/in/stephane-van-pe/' target='_blank' rel='noopener noreferrer'>
 							- Réalisé par Stéphane Van Pé
 						</a>
 					</p>

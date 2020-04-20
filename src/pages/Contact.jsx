@@ -59,8 +59,7 @@ class Contact extends Component {
 											}}
 											waves='light'
 											className='purple darken-4'
-											href='javascript: void(0)'
-											onclick="location.href='mailto:Khrisma@hotmail.fr';"
+								
 										>
 											<Icon left>
 												<span className='purple-text text-lighten-5'>email</span>
