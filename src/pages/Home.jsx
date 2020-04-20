@@ -49,8 +49,8 @@ const Home = () => {
 						<h4 className='header purple-text text-darken-4'>Déroulement de la consultation</h4>
 
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
-							<b>C</b>ontactez-moi et faites-moi part de votre problème : mal-être , deuil ( mort naturelle , suicide , maladie , accident ) activité
-							professionnelle , amour , immobilier ( blocage ) etc.. Et je saurai , dès lors si cela rentre dans mes compétences , si tel est le cas , nous
+							<b>C</b>ontactez-moi et faites-moi part de votre problème : mal-être , deuil ( mort naturelle , suicide , maladie , accident ) , activité
+							professionnelle , amour , immobilier ( blocage ) etc.. Et je saurai , dès lors si cela rentre dans mes compétences . Si tel est le cas , nous
 							organiserons un rendez-vous téléphonique .
 						</p>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
