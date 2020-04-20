@@ -20,7 +20,8 @@ class Contact extends Component {
 		const position = [43.5405622, -1.4611915];
 		const zoom =16;
 		return (
-			<div style={{
+			<div
+				style={{
 					marginLeft: '0px',
 					marginRight: '0px',
 					backgroundImage: `url(${Background})`,
@@ -28,14 +29,13 @@ class Contact extends Component {
 					backgroundSize: 'cover',
 					backgroundRepeat: 'no-repeat',
 					height: 'auto',
-					width: '100%'
-				}}>
+					width: '100%',
+				}}
+			>
 				<Navbar />
-				<Row>
-				</Row>
-				<Row>
-				</Row>
-				<Row style={{marginbottom:'0px'}}>
+				<Row></Row>
+				<Row></Row>
+				<Row style={{ marginbottom: '0px' }}>
 					<Col s={1}></Col>
 					<Col s={10}>
 						<Col s={12}>
@@ -47,7 +47,7 @@ class Contact extends Component {
 								title='Envoyez-moi un message ou appellez-moi'
 								margin-bottom='0px'
 							>
-								<br/>
+								<br />
 								<div className='row'>
 									<div className='col s12'>
 										<Button
@@ -59,6 +59,8 @@ class Contact extends Component {
 											}}
 											waves='light'
 											className='purple darken-4'
+											href='javascript: void(0)'
+											onclick="location.href='mailto:Khrisma@hotmail.fr';"
 										>
 											<Icon left>
 												<span className='purple-text text-lighten-5'>email</span>
@@ -85,7 +87,6 @@ class Contact extends Component {
 					</Col>
 					<Col s={1}></Col>
 				</Row>
-
 
 				<Row>
 					<Col s={1}></Col>
@@ -118,7 +119,6 @@ class Contact extends Component {
 													}}
 													onClick={() => swal({ icon: `${Cabinet}` })}
 												/>
-
 												<br /> 40220 Tarnos
 												<br /> France
 											</Popup>
@@ -130,8 +130,8 @@ class Contact extends Component {
 					</Col>
 					<Col s={1}></Col>
 				</Row>
-				<div align="right">
-				<img alt='medium tarnos khrisma' src={PlumeO} style={{height:'100px',weight:'auto', marginTop:'0px', marginBottom:'0px'}}  />
+				<div align='right'>
+					<img alt='medium tarnos khrisma' src={PlumeO} style={{ height: '100px', weight: 'auto', marginTop: '0px', marginBottom: '0px' }} />
 				</div>
 				<Footer />
 			</div>
