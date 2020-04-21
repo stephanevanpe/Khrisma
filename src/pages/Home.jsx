@@ -28,7 +28,7 @@ const Home = () => {
 						</Col>
 						<h4 className='header purple-text text-darken-4'>
 							{' '}
-							Médium de naissance - Passeuse d'âmes - Magnétisme holistique - Reiki 3<sup>ème</sup> degré
+							Médium de naissance - Passeuse d'âmes - Magnétisme holistique - Reiki III
 						</h4>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
 							" <b>J</b>e me suis rendue compte que mes aptitudes me servaient pour aider à la gestion du deuil et des blocages divers , tout en tenant
