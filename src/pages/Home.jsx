@@ -43,7 +43,7 @@ const Home = () => {
 				<div className='section purple lighten-5'>
 					<div className='row container'>
 						<hr />
-						<h4 className='header purple-text text-darken-4'>Déroulement de la consultation</h4>
+						<h4 className='header purple-text text-darken-4'>Déroulement de la séance</h4>
 
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
 							<a href='/Contact' style={{ color: 'black' }}>
