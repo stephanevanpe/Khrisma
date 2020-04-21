@@ -11,8 +11,7 @@ const NavBar = () => {
 			alignLinks='right'
 			brand={
 				<a className='brand-logo' href='/'>
-					<img alt='Khrisma medium logo painting' src={Lotus} height='65px' weight='auto'/>
-
+					<img  alt='Khrisma medium logo painting' src={Lotus} height='65px' weight='auto' />
 				</a>
 			}
 			fixed
