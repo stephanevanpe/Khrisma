@@ -50,11 +50,11 @@ class Contact extends Component {
 								<br />
 								<div className='row'>
 									<div className='col s12'>
-										<a href='mailto:Khrisma@hotmail.fr'>
+										<a href='mailto:khrisma4057@gmail.com'>
 											<Button
 												node='button'
 												floating
-												tooltip='Khrisma@hotmail.fr'
+												tooltip='khrisma4057@gmail.com'
 												tooltipOptions={{
 													position: 'left',
 												}}
