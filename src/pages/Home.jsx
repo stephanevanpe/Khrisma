@@ -26,10 +26,7 @@ const Home = () => {
 								<img alt='' src={Deco1} /> Khrisma <img alt='medium tarnos khrisma' src={Deco2} />
 							</h1>
 						</Col>
-						<h4 className='header purple-text text-darken-4'>
-							{' '}
-							Médium de naissance - Passeuse d'âmes - Magnétisme holistique - Reiki III
-						</h4>
+						<h4 className='header purple-text text-darken-4'> Médium de naissance - Passeuse d'âmes - Magnétisme holistique - Reiki III</h4>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
 							" <b>J</b>e me suis rendue compte que mes aptitudes me servaient pour aider à la gestion du deuil et des blocages divers , tout en tenant
 							compte de la généalogie . Les cartes , les mots , l'écriture viennent à mon aide . "
@@ -49,9 +46,12 @@ const Home = () => {
 						<h4 className='header purple-text text-darken-4'>Déroulement de la consultation</h4>
 
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
-							<b>C</b>ontactez-moi et faites-moi part de votre problème : mal-être , deuil ( mort naturelle , suicide , maladie , accident ) , activité
-							professionnelle , amour , immobilier ( blocage ) etc.. Et je saurai , dès lors si cela rentre dans mes compétences . Si tel est le cas , nous
-							organiserons un rendez-vous téléphonique .
+							<a href='/Contact' style={{ color: 'black' }}>
+								<b>C</b>ontactez-moi
+							</a>{' '}
+							et faites-moi part de votre problème : mal-être , deuil ( mort naturelle , suicide , maladie , accident ) , activité professionnelle , amour ,
+							immobilier ( blocage ) etc.. Et je saurai , dès lors si cela rentre dans mes compétences . Si tel est le cas , nous organiserons un rendez-vous
+							téléphonique .
 						</p>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
 							<b>L</b>ors de ce dernier , j'établirai un petit arbre généalogique ( ne vous inquiétiez pas , tout ce qu'il y a de plus simple ) . Les
@@ -62,8 +62,11 @@ const Home = () => {
 							<b> « CELA MARCHE TRES BIEN A DISTANCE »</b>
 						</p>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
-							<b>E</b>ntre-temps , vous me ferez parvenir un chèque pour ladite consultation d'un montant de 70 € ( à titre de précaution ) et qui ne sera
-							encaissé qu'après cette dernière .
+							<b>E</b>ntre-temps , vous me ferez parvenir un chèque pour ladite consultation d'un montant de{' '}
+							<a href='/Prices' style={{ color: 'black' }}>
+								70 €
+							</a>{' '}
+							( à titre de précaution ) et qui ne sera encaissé qu'après cette dernière .
 						</p>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
 							<b>L</b>ors de notre discussion , je recevrai des flashs , des paroles , des sensations que je ressentirai et que je partagerai aussitôt avec
