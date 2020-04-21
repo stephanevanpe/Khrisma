@@ -77,7 +77,7 @@ const Home = () => {
 						</p>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
 							<b>L</b>e mal-être provoqué par ces derniers sont d'ordre variés que nous ne soupçonnons même pas . Cela m'étonne encore à chaque fois , d'une
-							manière ou d'une autre , car le secret des ÂMES nous dévoile " ce qu'il faut et pas plus au bon moment . " Cela vous permettra de faire le
+							manière ou d'une autre , car le secret des Âmes nous dévoile " ce qu'il faut et pas plus au bon moment . " Cela vous permettra de faire le
 							point sur ce que vous voulez au plus profond de votre âme et ce que vous êtes vraiment .
 						</p>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
