@@ -26,10 +26,11 @@ const Home = () => {
 								<img alt='' src={Deco1} /> Khrisma <img alt='medium tarnos khrisma' src={Deco2} />
 							</h1>
 						</Col>
-						<h4 className='header purple-text text-darken-4'> Médium de naissance - Passeuse d'âmes - Magnétisme holistique - Reiki III</h4>
+						<h4 className='header purple-text text-darken-4'> Médium de naissance - Passeuse d'âmes - Magnétisme holistique </h4>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
-							" <b>J</b>e me suis rendue compte que mes aptitudes me servaient pour aider à la gestion du deuil et des blocages divers , tout en tenant
-							compte de la généalogie . Les cartes , les mots , l'écriture viennent à mon aide . "
+							" <b>M</b>es prédispositions me permettent de vous aider à la gestion du deuil . Vous pouvez également , me faire part de vos difficultés et
+							problèmes divers de la vie quotidienne ( professionnels , sentimentaux , familiaux et autres ) , afin d'en trouver la cause , d'en prendre
+							conscience et d'y remédier . Généalogie , magnétisme holistique , flashs viennent à mon aide . "
 						</p>
 						<hr />
 					</div>
@@ -49,45 +50,31 @@ const Home = () => {
 							<a href='/medium/contact' style={{ color: 'black' }}>
 								<b>C</b>ontactez-moi
 							</a>{' '}
-							et faites-moi part de votre problème : mal-être , deuil ( mort naturelle , suicide , maladie , accident ) , activité professionnelle , amour ,
-							immobilier ( blocage ) , etc.. Et je saurais , dès lors si cela rentre dans mes compétences . Si tel est le cas , nous organiserons un
-							rendez-vous téléphonique .
+							, pour me faire part de votre problème . Si cela rentre dans le cadre de mes compétences , nous organiserons un premier rendez-vous
+							téléphonique , avant toute intervention . Je ferai un petit arbre généalogique vous concernant . Grâce à ma médiumnité je détecterai les
+							blocages .
 						</p>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
-							<b>L</b>ors de ce dernier , j'établirai un petit arbre généalogique ( ne vous inquiétez pas , tout ce qu'il y a de plus simple ) . Les éléments
-							manquants viendront à moi et je regarderai ce qui ne va pas en médiumnité . Je fixerai alors le jour de notre prochain rendez-vous téléphonique
-							ou physique afin d'intervenir sur votre cas .
+							<b>J</b>e fixerai avec vous un deuxième rendez-vous , physique ou téléphonique . Dans le dernier cas , par sécurité , vous voudrez bien
+							m'envoyer à l adresse que je vous communiquerai , le règlement de{' '}
+							<a href='/medium/tarifs' style={{ color: 'black' }}>
+								70€
+							</a>{' '}
+							par chèque que j'encaisserai uniquement après la séance téléphonique . Si vous vous déplacez , le paiement se fera sur place .
 						</p>
 						<p className='grey-text text-darken-3 lighten-3'>
-							<b> « CELA FONCTIONNE TRES BIEN A DISTANCE »</b>
+							<b> « LES SEANCES MARCHENT TRES BIEN A DISTANCE »</b>
+						</p>
+
+						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
+							<b>J</b>e ne négligerai pas les générations passées , présentes , futures , ainsi que les vies antérieures qui entrent en ligne de compte et qui m
+							aident à comprendre les difficultés que vous traversez .
 						</p>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
-							<b>E</b>ntre-temps , vous me ferez parvenir un chèque pour ladite consultation d'un montant de{' '}
-							<a href='/medium/tarifs' style={{ color: 'black' }}>
-								70 €
-							</a>{' '}
-							( à titre de précaution ) et qui ne sera encaissé qu'après cette dernière .
+							<b>I</b>l se pourrait que vous ayez un petit travail personnel à faire , après la séance . La demande me sera dictée précisément par le contact
+							établi . Cela vous permettra de méditer .
 						</p>
-						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
-							<b>L</b>ors de notre discussion , je recevrai des flashs , des paroles , des sensations que je ressentirai et que je partagerai aussitôt avec
-							vous , sous la surveillance bienveillante de mes guides spirituels . J'établirai un contact auquel vous participerez oralement , pour vous
-							donner la paix et le pardon réciproquement . Ce contact lèvera les problèmes , les blocages dans le dialogue tout en ne négligeant pas de les
-							lever sur les générations passées mais aussi présentes et futures ainsi que sur les vies antérieures qui entrent en ligne de compte et qui
-							expliquent souvent , les problèmes et les blocages .
-						</p>
-						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
-							<b>L</b>e mal-être provoqué par ces derniers sont d'ordres variés que nous ne soupçonnons même pas . Cela m'étonne encore à chaque fois , d'une
-							manière ou d'une autre , car le secret des Âmes nous dévoile " ce qu'il faut et pas plus au bon moment " . Cela vous permettra de faire le
-							point sur ce que vous voulez au plus profond de votre âme et ce que vous êtes vraiment .
-						</p>
-						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
-							<b>D</b>ans de nombreux cas , un petit travail personnel sera nécessaire en plus de celui que nous effectuerons ensemble . Il vous permettra de
-							sceller ce que les êtres de lumière nous ont aidé à faire et de pouvoir méditer dessus le temps d'un instant .
-						</p>
-						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
-							<b>C</b>haque fois , la demande me sera dictée par eux-mêmes , sera précisément adaptée à la situation et se présentera sous formes de prières
-							personnalisées selon le cas exposé .
-						</p>
+
 						<br />
 						<Row>
 							<Col s={1}></Col>

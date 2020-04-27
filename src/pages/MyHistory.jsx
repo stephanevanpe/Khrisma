@@ -25,16 +25,17 @@ const MyHistory = () => {
 						<img alt='medium tarnos khrisma' src={Chapeau} height='85px' weight='auto' />
 						<h4 className='header purple-text text-darken-4'>Mon Histoire</h4>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
-							" <b>A</b> l'âge de 9 ans , ce que je croyais être une extrême sensibilité , a révélé , d'une façon beaucoup plus intime , ma médiumnité .
+							" <b>A</b> l'âge de neuf ans , lors d'un évènement brutal et violent , mon extrême sensibilité déjà présente a révélé ma médiumnité .
 						</p>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
-							<b>L</b>ors de l'accident de voiture de mon cousin , qui est resté durant trois semaines dans le coma , j' ai eu un contact quasiment permanent
-							avec lui et j'ai su à quel moment il avait fait le choix de nous quitter . Je n'en ai jamais parlé à personne .
+							<b>U</b>n de mes proches s'est retrouvé en neurologie , entre la vie et la mort , pendant trois semaines . Durant son coma , je suis restée en
+							contact quasi permanent avec lui . J'ai su à quel moment il a fait le choix de nous quitter . Je n'en ai jamais parlé à personne .
 						</p>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
-							<b>U</b>n peu plus tard dans ma vie , j'ai eu un problème sur la table d'opération . A cet instant , j'ai pu entrevoir l'autre côté du " voile
-							" . Nos êtres disparus sont bien présents dans un amour total , inconditionnel et tellement grand que je ne pourrais vous décrire sa lumière et
-							sa douceur .
+							<b>P</b>lus tard dans ma vie , lors d'une intervention chirurgicale , j'ai eu un problème durant lequel j'ai pu entrevoir l'autre côté du
+							" Voile  " : nos êtres chers disparus , sont bien présents dans un amour totalement inconditionnel que je ne peux vous décrire que par les mots
+							amour , lumière , beauté , douceur , plénitude . Heureusement , J'ai eu la chance de rencontrer un vieux magnétiseur qui m'a pris sous son aile
+							et m'a fait comprendre bien des choses …
 						</p>
 						<img
 							class='responsive-img'
@@ -43,18 +44,17 @@ const MyHistory = () => {
 							onClick={() => swal({ icon: `${Ange}`, text: 'Cette peinture a été réalisée par mes soins .' })}
 						/>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
-							<b>P</b>uis , pendant deux ans , il y a eu de très nombreux "départs" dans mon entourage . A ce moment-là , j'ai eu la chance de rencontrer une
-							amie chère . Elle aussi était en deuil. Bercée depuis son enfance dans le domaine spirituel , je l'ai aidée et elle , m'a surtout aidée à
-							accepter et à comprendre à quoi me sers ce que mes guides m'envoient afin de pouvoir aider les autres . C'était donc cela !! Pendant plusieurs
-							années , j'ai accompagné bénévolement les gens que je rencontrais tant dans ma vie privée que professionnelle et j'y prenais grand plaisir !
+							<b>E</b>nsuite , pendant deux ans , il y a eu de nombreux " départs " dans mon entourage . A cette époque j’ai rencontré une amie , qui , elle
+							aussi , a perdu un être cher , récemment . Bercée depuis son enfance dans le domaine spirituel , j'ai pu l'aider et elle a su en retour , me
+							faire accepter ce que mes guides spirituels me demandaient . Tout simplement , d'aider mon prochain .
 						</p>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
-							<b>P</b>uis chômage ... " C'est le moment , je me lance ! "
+							<b>P</b>endant plusieurs années , j'ai accompagné les personnes que je rencontrais , dans ma vie privée comme professionnelle et j ai constaté
+							que mes conseils et mes interventions portaient leurs fruits .
 						</p>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
-							<b>L</b>ors des consultations , je me sers du magnétisme holistique , des flashs (images) , des paroles et des sensations que je perçois ,
-							ainsi que des cartes qui me confirment l'évolution spirituelle de la personne . Et même , du pendule si besoin , du reiki et de la géobiologie
-							. Je me sers de " l'outil " dont j'ai besoin sur le moment en complément . "
+							<b>P</b>uis j'ai connu le chômage . C'est à ce moment là que je me suis décidée à consacrer une partie de mon temps à aider les autres . J'ai
+							trouvé ma voie ! Lors de mes séances , je me sers de tous les " outils " dont je dispose , afin de mener au mieux le travail que j’effectue . "
 						</p>
 						<img alt='medium tarnos khrisma' src={Chapeau} height='85px' weight='auto' />
 						<hr />
