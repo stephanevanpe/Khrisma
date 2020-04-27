@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, BrowserRouter, Switch } from 'react-router-dom';
+import { Redirect, Route, BrowserRouter, Switch } from 'react-router-dom';
 
 import Home from '../pages/Home';
 import Prices from '../pages/Prices';
@@ -17,6 +17,7 @@ class Router extends Component {
 					<Route exact path='/Prices' component={Prices} />
 					<Route exact path='/Contact' component={Contact} />
 					<Route exact path='/404' component={Error} />
+					<Redirect to='/404' />
 				</Switch>
 			</BrowserRouter>
 		);
