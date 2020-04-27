@@ -1,4 +1,4 @@
 
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^www.khrisma.netlify.app$
+RewriteCond %{HTTP_HOST} ^https://mclanchantin.wixsite.com/monsite$
 RewriteRule ^(.*) https://khrisma.netlify.app/$1 [QSA,L,R=301]
