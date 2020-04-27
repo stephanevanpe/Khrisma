@@ -1,4 +1,1 @@
-
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^https://mclanchantin.wixsite.com/monsite$
-RewriteRule ^(.*) https://khrisma.netlify.app/$1 [QSA,L,R=301]
+RedirectPermanent https://mclanchantin.wixsite.com/monsite https://khrisma.netlify.app
