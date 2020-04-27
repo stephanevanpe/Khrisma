@@ -89,6 +89,24 @@ class Contact extends Component {
 					</Col>
 					<Col s={1}></Col>
 				</Row>
+				<Row style={{ marginbottom: '0px' }}>
+					<Col s={1}></Col>
+					<Col s={10}>
+						<Col s={12}>
+							<Card
+								className='purple lighten-5'
+								closeIcon={<Icon>close</Icon>}
+								revealIcon={<Icon>more_vert</Icon>}
+								textClassName='purple-text text-darken-4'
+								title="Horaires d'ouverture"
+								margin-bottom='0px'
+							>
+								Ouvert du lundi au samedi de 9h00 à 13h00 et de 14h00 à 19h00.
+							</Card>
+						</Col>
+					</Col>
+					<Col s={1}></Col>
+				</Row>
 
 				<Row>
 					<Col s={1}></Col>
