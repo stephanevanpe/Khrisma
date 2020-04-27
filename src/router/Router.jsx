@@ -5,6 +5,7 @@ import Home from '../pages/Home';
 import Prices from '../pages/Prices';
 import Contact from '../pages/Contact';
 import History from '../pages/MyHistory';
+import Error from '../pages/404';
 
 class Router extends Component {
 	render() {
@@ -15,6 +16,7 @@ class Router extends Component {
 					<Route exact path='/History' component={History} />
 					<Route exact path='/Prices' component={Prices} />
 					<Route exact path='/Contact' component={Contact} />
+					<Route exact path='/404' component={Error} />
 				</Switch>
 			</BrowserRouter>
 		);
