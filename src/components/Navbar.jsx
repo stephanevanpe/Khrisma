@@ -10,7 +10,7 @@ const NavBar = () => {
 			className='purple lighten-5'
 			alignLinks='right'
 			brand={
-				<a className='brand-logo' href='/medium/'>
+				<a className='brand-logo' href='/'>
 					<img alt='Khrisma medium logo painting' src={Lotus} height='65px' weight='auto' />
 				</a>
 			}
@@ -34,7 +34,7 @@ const NavBar = () => {
 				preventScrolling: true,
 			}}
 		>
-			<NavItem href='/medium/'>
+			<NavItem href='/'>
 				<span className='purple-text text-darken-4'>Accueil</span>
 			</NavItem>
 			<NavItem href='/medium/mon-histoire'>

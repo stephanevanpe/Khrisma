@@ -12,7 +12,7 @@ class Router extends Component {
 		return (
 			<BrowserRouter>
 				<Switch>
-					<Route exact path='/medium/' component={Home} />
+					<Route exact path='/' component={Home} />
 					<Route exact path='/medium/mon-histoire' component={History} />
 					<Route exact path='/medium/tarifs' component={Prices} />
 					<Route exact path='/medium/contact' component={Contact} />
