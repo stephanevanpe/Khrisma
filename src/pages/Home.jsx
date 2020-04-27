@@ -46,7 +46,7 @@ const Home = () => {
 						<h4 className='header purple-text text-darken-4'>Déroulement de la séance</h4>
 
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
-							<a href='/Contact' style={{ color: 'black' }}>
+							<a href='/medium/contact' style={{ color: 'black' }}>
 								<b>C</b>ontactez-moi
 							</a>{' '}
 							et faites-moi part de votre problème : mal-être , deuil ( mort naturelle , suicide , maladie , accident ) , activité professionnelle , amour ,
@@ -63,7 +63,7 @@ const Home = () => {
 						</p>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
 							<b>E</b>ntre-temps , vous me ferez parvenir un chèque pour ladite consultation d'un montant de{' '}
-							<a href='/Prices' style={{ color: 'black' }}>
+							<a href='/medium/tarifs' style={{ color: 'black' }}>
 								70 €
 							</a>{' '}
 							( à titre de précaution ) et qui ne sera encaissé qu'après cette dernière .
@@ -77,12 +77,12 @@ const Home = () => {
 						</p>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
 							<b>L</b>e mal-être provoqué par ces derniers sont d'ordres variés que nous ne soupçonnons même pas . Cela m'étonne encore à chaque fois , d'une
-							manière ou d'une autre , car le secret des Âmes nous dévoile " ce qu'il faut et pas plus au bon moment " . Cela vous permettra de faire le point
-							sur ce que vous voulez au plus profond de votre âme et ce que vous êtes vraiment .
+							manière ou d'une autre , car le secret des Âmes nous dévoile " ce qu'il faut et pas plus au bon moment " . Cela vous permettra de faire le
+							point sur ce que vous voulez au plus profond de votre âme et ce que vous êtes vraiment .
 						</p>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
-							<b>D</b>ans de nombreux cas , un petit travail personnel sera nécessaire en plus de celui que nous effectuerons ensemble . Il vous permettra de sceller
-							ce que les êtres de lumière nous ont aidé à faire et de pouvoir méditer dessus le temps d'un instant .
+							<b>D</b>ans de nombreux cas , un petit travail personnel sera nécessaire en plus de celui que nous effectuerons ensemble . Il vous permettra de
+							sceller ce que les êtres de lumière nous ont aidé à faire et de pouvoir méditer dessus le temps d'un instant .
 						</p>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
 							<b>C</b>haque fois , la demande me sera dictée par eux-mêmes , sera précisément adaptée à la situation et se présentera sous formes de prières
