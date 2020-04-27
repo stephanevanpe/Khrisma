@@ -45,7 +45,7 @@ const MyHistory = () => {
 						/>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
 							<b>E</b>nsuite , pendant deux ans , il y a eu de nombreux " départs " dans mon entourage . A cette époque j’ai rencontré une amie , qui , elle
-							aussi , a perdu un être cher , récemment . Bercée depuis son enfance dans le domaine spirituel , j'ai pu l'aider et elle a su en retour , me
+							aussi , a perdu un être cher . Bercée depuis son enfance dans le domaine spirituel , j'ai pu l'aider et elle a su en retour , me
 							faire accepter ce que mes guides spirituels me demandaient . Tout simplement , d'aider mon prochain .
 						</p>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
