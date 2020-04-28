@@ -49,7 +49,7 @@ const Prices = () => {
 								<tbody>
 									<tr>
 										<td>Médium</td>
-										<td>70€ par consultation</td>
+										<td>70€ par consultation + supplément si travail très important </td>
 									</tr>
 									<tr>
 										<td>Magnétisme holistique</td>
