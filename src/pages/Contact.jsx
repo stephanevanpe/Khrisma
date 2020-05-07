@@ -84,6 +84,34 @@ class Contact extends Component {
 										</a>
 									</div>
 								</div>
+								<hr />
+								<br />
+								<form name='contact' method='post'>
+									<input type='hidden' name='form-name' value='contact' />
+									<p>
+										<Icon>account_circle</Icon>
+										<label>
+											<input type='text' name='name' placeholder='Nom' />
+										</label>
+									</p>
+									<p>
+										<Icon>email</Icon>
+										<label>
+											<input type='email' name='email' placeholder='Email' />
+										</label>
+									</p>
+									<p>
+										<Icon>mode_edit</Icon>
+										<label>
+											<textarea name='message' placeholder='Message'></textarea>
+										</label>
+									</p>
+									<p>
+										<button type='submit' style={{ color: 'white', backgroundColor: '#4a148c' }}>
+											<Icon>send</Icon> Envoyer
+										</button>
+									</p>
+								</form>
 							</Card>
 						</Col>
 					</Col>
