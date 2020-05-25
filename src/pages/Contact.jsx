@@ -107,9 +107,10 @@ class Contact extends Component {
 										</label>
 									</p>
 									<p>
-										<button type='submit' style={{ color: 'white', backgroundColor: '#4a148c',borderRadius: '30px' }}>
-											 Envoyer
+										<button type='submit'  style={{ color: 'white', backgroundColor: '#4a148c', borderRadius: '30px' }}>
+											Envoyer
 										</button>
+
 									</p>
 								</form>
 							</Card>

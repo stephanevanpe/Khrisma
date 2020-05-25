@@ -20,7 +20,7 @@ const Fouter = () => {
 					</a>
 					<p className='purple-text text-darken-4' href='#!'>
 						{' '}
-						Krisma N° SIREN: 831 976 543{' '}
+						Khrisma N° SIREN: 831 976 543{' '}
 						<a className='purple-text text-darken-4' href='https://www.linkedin.com/in/stephane-van-pe/' target='_blank' rel='noopener noreferrer'>
 							- Réalisé par Stéphane Van Pé
 						</a>
