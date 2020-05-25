@@ -21,6 +21,9 @@ const Fouter = () => {
 					<p className='purple-text text-darken-4' href='#!'>
 						{' '}
 						Khrisma N° SIREN: 831 976 543{' '}
+						<a className='purple-text text-darken-4' href='/LegalMention.html'>
+							- Mentions légales{' '}
+						</a>
 						<a className='purple-text text-darken-4' href='https://www.linkedin.com/in/stephane-van-pe/' target='_blank' rel='noopener noreferrer'>
 							- Réalisé par Stéphane Van Pé
 						</a>
