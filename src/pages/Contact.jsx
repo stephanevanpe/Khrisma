@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Card, Icon, Button} from 'react-materialize';
+import { Row, Col, Card, Icon, Button } from 'react-materialize';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 import swal from 'sweetalert';
 import Navbar from '../components/Navbar';
@@ -107,10 +107,9 @@ class Contact extends Component {
 										</label>
 									</p>
 									<p>
-										<button type='submit'  style={{ color: 'white', backgroundColor: '#4a148c', borderRadius: '30px' }}>
+										<button type='submit' style={{ color: 'white', backgroundColor: '#4a148c', borderRadius: '30px' }}>
 											Envoyer
 										</button>
-
 									</p>
 								</form>
 							</Card>
