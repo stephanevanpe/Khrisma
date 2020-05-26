@@ -82,7 +82,7 @@ const Home = () => {
 							<Col s={1}></Col>
 							<Col s={1}></Col>
 							<Col s={1}></Col>
-							<Col style={{ color: '#d2b16c' }} s={7} textAlign='right'>
+							<Col style={{ color: '#d2b16c' }} s={7} textalign='right'>
 								« Accepte ce qui est, laisse aller ce qui était, et aie confiance en ce qui sera »<br />
 								BOUDDHA
 							</Col>

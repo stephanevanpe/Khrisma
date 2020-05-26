@@ -24,7 +24,7 @@ const NavBar = () => {
 			}
 			options={{
 				draggable: true,
-				edge: 'left',
+				edge: 'right',
 				inDuration: 250,
 				onCloseEnd: null,
 				onCloseStart: null,
