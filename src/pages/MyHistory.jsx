@@ -41,7 +41,7 @@ const MyHistory = () => {
 							class='responsive-img'
 							alt='medium tarnos khrisma'
 							src={Ange}
-							onClick={() => swal({ icon: `${Ange}`, text: 'Cette peinture a été réalisée par mes soins . D après le modéle des cartes de Doreen Virtue' })}
+							onClick={() => swal({ icon: `${Ange}`, text: 'Cette peinture a été réalisée par mes soins . D après le modéle des cartes de Doreen Virtue .' })}
 						/>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
 							<b>E</b>nsuite , pendant deux ans , il y a eu de nombreux " départs " dans mon entourage . A cette époque j’ai rencontré une amie , qui , elle
