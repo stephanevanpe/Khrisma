@@ -4,7 +4,7 @@ import { Row, Col, Card, Icon } from 'react-materialize';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-import Background from '../pictures/62a47d8e4ab364cf476f25a473b23c75.jpg';
+import Background from '../pictures/image1.jpeg';
 
 const Error = () => {
 	return (
