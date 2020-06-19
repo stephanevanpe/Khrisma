@@ -7,25 +7,23 @@ import Background from '../pictures/image1.jpeg';
 
 const Prices = () => {
 	return (
-		<div style={{
-					marginLeft: '0px',
-					marginRight: '0px',
-					backgroundImage: `url(${Background})`,
-					backgroundPosition: 'center',
-					backgroundSize: 'cover',
-					backgroundRepeat: 'no-repeat',
-					height: 'auto',
-					width: '100%'
-				}}>
+		<div
+			style={{
+				marginLeft: '0px',
+				marginRight: '0px',
+				backgroundImage: `url(${Background})`,
+				backgroundPosition: 'center',
+				backgroundSize: 'cover',
+				backgroundRepeat: 'no-repeat',
+				height: 'auto',
+				width: '100%',
+			}}
+		>
 			<Navbar />
-			<Row>
-			</Row>
-			<Row>
-			</Row>
-			<Row>
-			</Row>
-			<Row>
-			</Row>
+			<Row></Row>
+			<Row></Row>
+			<Row></Row>
+			<Row></Row>
 			<Row>
 				<Col s={1}></Col>
 				<Col s={10}>
@@ -38,7 +36,7 @@ const Prices = () => {
 							title='Tarification'
 						>
 							Pour les consultations à distance, merci de me faire parvenir le chèque à l'adresse que je vous communiquerai.
-							<br/>
+							<br />
 							<Table>
 								<thead>
 									<tr>
@@ -70,10 +68,9 @@ const Prices = () => {
 				</Col>
 				<Col s={1}></Col>
 			</Row>
-			<Row>
-			</Row>
-			<Row>
-			</Row>
+			<Row></Row>
+			<Row></Row>
+			<Row></Row>
 			<Footer />
 		</div>
 	);
