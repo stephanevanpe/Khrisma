@@ -4,7 +4,7 @@ import swal from 'sweetalert';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Lotus from '../pictures/image1.jpeg';
-import Chapeau from '../pictures/unnamed.png';
+
 
 
 
@@ -22,7 +22,7 @@ const MyHistory = () => {
 				<div className='section purple lighten-5'>
 					<div className='row container'>
 						<hr />
-						<img alt='medium tarnos khrisma' src={Chapeau} height='85px' weight='auto' />
+
 						<h4 className='header purple-text text-darken-4'>Mon Histoire</h4>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
 							" <b>A</b> l'âge de neuf ans , lors d'un évènement brutal et violent , mon extrême sensibilité déjà présente a révélé ma médiumnité .
@@ -56,7 +56,7 @@ const MyHistory = () => {
 							<b>P</b>uis j'ai connu le chômage . C'est à ce moment là que je me suis décidée à consacrer une partie de mon temps à aider les autres . J'ai
 							trouvé ma voie ! Lors de mes séances , je me sers de tous les " outils " dont je dispose , afin de mener au mieux le travail que j’effectue . "
 						</p>
-						<img alt='medium tarnos khrisma' src={Chapeau} height='85px' weight='auto' />
+
 						<hr />
 					</div>
 				</div>

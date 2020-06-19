@@ -4,8 +4,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Lotus from '../pictures/image1.jpeg';
 import Lotusbloom from '../pictures/image1.jpeg';
-import Deco1 from '../pictures/pngwave1.png';
-import Deco2 from '../pictures/pngwave.png';
+
 
 const Home = () => {
 	return (
@@ -23,7 +22,7 @@ const Home = () => {
 						<hr />
 						<Col s={12}>
 							<h1 style={{ color: '#d2b16c' }}>
-								<img alt='' src={Deco1} /> Khrisma <img alt='medium tarnos khrisma' src={Deco2} />
+								 - Khrisma -
 							</h1>
 						</Col>
 						<h4 className='header purple-text text-darken-4'> Médium de naissance - Passeuse d'âmes - Magnétisme holistique </h4>
