@@ -56,11 +56,7 @@ const Home = () => {
 						</p>
 						<p className='grey-text text-darken-3 lighten-3' style={{ fontFamily: 'Snell Roundhand, Bookman Old Style', fontSize: '40px' }}>
 							<b>J</b>e fixerai avec vous un deuxième rendez-vous , physique ou téléphonique . Dans le dernier cas , par sécurité , vous voudrez bien
-							m'envoyer à l adresse que je vous communiquerai , le règlement de{' '}
-							<a href='/medium/tarifs' style={{ color: 'black' }}>
-								70€
-							</a>{' '}
-							par chèque que j'encaisserai uniquement après la séance téléphonique . Si vous vous déplacez , le paiement se fera sur place .
+							m'envoyer à l adresse que je vous communiquerai , le règlement par chèque que j'encaisserai uniquement après la séance téléphonique . Si vous vous déplacez , le paiement se fera sur place .
 						</p>
 						<p className='grey-text text-darken-3 lighten-3'>
 							<b> « LES SEANCES MARCHENT TRES BIEN A DISTANCE »</b>
