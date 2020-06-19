@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Cabinet from '../pictures/100_6943.jpeg'
 import Background from '../pictures/image1.jpeg';
-import PlumeO from '../pictures/Fond-avec-plume.png';
+
 
 class Contact extends Component {
 	constructor(props) {
@@ -178,9 +178,7 @@ class Contact extends Component {
 					</Col>
 					<Col s={1}></Col>
 				</Row>
-				<div align='right'>
-					<img alt='medium tarnos khrisma' src={PlumeO} style={{ height: '100px', weight: 'auto', marginTop: '0px', marginBottom: '0px' }} />
-				</div>
+
 				<Footer />
 			</div>
 		);
